@@ -15,7 +15,7 @@ producer = Producer(producer_config)
 topic = 'credit_card_transactions'
 
 # Đọc file CSV
-file_path = 'D:/Users/Desktop/HCMUS_HK7/4_ODAP/BaiTapThucHanh/Week910/Data/credit_card_transactions-ibm_v2.csv'
+file_path = 'credit_card/credit_card_transactions-ibm_v2.csv'
 with open(file_path, mode='r') as file:
     # Đọc bằng DictReader để lưu giá trị header
     csv_reader = csv.DictReader(file)
